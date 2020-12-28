@@ -1,0 +1,17 @@
+pre
+{
+    font-size: 1em;
+}
+
+pre > *
+{
+    word-wrap: wrap;
+}
+
+div.container div.devider:not(:last-child)
+{
+    border: 2px solid green;
+    width: 99vw;
+    margin-left: -10px;
+    margin-right: -10px;
+}
